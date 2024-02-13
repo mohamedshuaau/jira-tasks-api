@@ -79,7 +79,7 @@ export class JiraService {
       const response = await this.httpService.axiosRef.post(
         `${jiraBaseUrl}/rest/api/3/search`,
         {
-          jql: `project = ${project ? project : null}`,
+          jql: project ? `project = ${project}` : `project is not empty`,
         },
         this.prepareHeaders(request),
       );

@@ -13,7 +13,7 @@ export const userSeeder = async (): Promise<void> => {
       password: password,
       jira_email: 'mohammedshuaau@gmail.com',
       jira_pat:
-        'ATATT3xFfGF0Vjqx8wWZsmyyAuSiAZB851PAwzPBhHBbnzudNAm4Rlv03iRE8Y8VI64Li05BL4Ewv2UQXMk93UzGaEzDyYxRls0mDuR4gH9nuNEfkgMJ__armnhJ-Rh6rk3EmbPCXrU9dNh6mp3OmF4rYSjnspyxXXGzrhze9bHjKgoHBHXdYCk=425C3ADE',
+        'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJzdWIiOjEsInVzZXJuYW1lIjoic2h1YWF1bSIsImlhdCI6MTcwNzg0NjkzNiwiZXhwIjoxNzA3ODYxMzM2fQ.r6fWpWMfa-Z5aIuDeYb3U8lxcJ-5HxNER75SmTkyP6g',
     },
   });
 };
